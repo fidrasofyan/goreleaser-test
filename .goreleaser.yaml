@@ -20,6 +20,10 @@ builds:
       - linux
       - windows
       - darwin
+    ldflags:
+      - -s -w
+      - -X "example/goreleaser-test/internal/config.AppVersion={{.Version}}"
+      - -X "example/goreleaser-test/internal/config.AppCommit={{.ShortCommit}}"
 
 changelog:
   use: git
@@ -27,4 +31,4 @@ changelog:
 
 archives:
   - id: binary
-    format: binary
+    formats: [binary]
