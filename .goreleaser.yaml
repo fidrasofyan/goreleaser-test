@@ -24,9 +24,3 @@ builds:
 changelog:
   use: github
   sort: asc
-
-release:
-  footer: |
-    ## Thanks
-
-    Those were the changes on {{ .Tag }}!
