@@ -22,5 +22,5 @@ builds:
       - darwin
 
 changelog:
-  use: github-native
+  use: github
   sort: asc
