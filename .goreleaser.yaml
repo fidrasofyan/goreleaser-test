@@ -24,3 +24,7 @@ builds:
 changelog:
   use: github
   sort: asc
+
+archives:
+  - id: binary
+    format: binary
