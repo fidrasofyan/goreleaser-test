@@ -26,7 +26,7 @@ builds:
       - -X "example/goreleaser-test/internal/config.AppCommit={{.ShortCommit}}"
 
 changelog:
-  use: git
+  use: github
   sort: asc
 
 archives:
